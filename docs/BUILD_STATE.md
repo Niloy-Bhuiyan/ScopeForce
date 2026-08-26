@@ -2,13 +2,13 @@
 
 ## Current phase
 
-MVP implemented, quality-gated, and deployed to production; GitHub push is awaiting an account privacy-setting change.
+MVP implemented, quality-gated, pushed to a private GitHub repository, and deployed to production.
 
 ## Completed
 
 - Audited Windows 10, PowerShell 7.6, Node 24, npm 11, Python 3.13, Git 2.51, GitHub CLI, Vercel CLI, and all eight references.
 - GitHub authenticated as `Niloy-Bhuiyan`; Vercel authenticated as `niloybhuiyann-5710`.
-- Initialized repository with local Git identity `Niloy-Bhuiyan <niloybhuiyann@gmail.com>`.
+- Initialized the repository and used the verified GitHub noreply identity `Niloy-Bhuiyan <145592285+Niloy-Bhuiyan@users.noreply.github.com>` for published commits.
 - Confirmed current Vercel Python/FastAPI entrypoint and Python 3.12+ support.
 - Established Next/FastAPI architecture, design tokens, typed CampusLink domain, graph algorithms, build rules, initial tests, and project documentation.
 - Implemented every primary view, shared state transitions, responsive layouts, notifications, structured export, and four graph lenses.
@@ -30,11 +30,11 @@ MVP implemented, quality-gated, and deployed to production; GitHub push is await
 
 ## Pending
 
-Push the existing local commits after GitHub command-line email protection is adjusted for the mandated commit identity. Optionally configure `OPENAI_API_KEY` later for a live OpenAI smoke test.
+Optionally configure `OPENAI_API_KEY` later for a live OpenAI smoke test and replace the ephemeral vector adapter when durable multi-tenant persistence enters scope.
 
 ## Authentication and release state
 
-- GitHub: authenticated; private repository created and remote configured. Push is blocked by GitHub error `GH007` because the prompt-mandated commit email is private and command-line email protection is enabled.
+- GitHub: authenticated; private repository created, `main` pushed, and local `main` tracks `origin/main`.
 - Vercel: authenticated, linked, and production deployment ready at `https://scopeforce.vercel.app`.
 - OpenAI: environment key missing; the deployed API truthfully reports `ai_provider=not-configured`, `embedding_provider=local-hash`, and `vector_store=in-memory-ephemeral`.
 
