@@ -1,0 +1,16 @@
+node_modules/
+.next/
+.vercel/
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+coverage/
+dist/
+*.pyc
+*.egg-info/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+*.log
