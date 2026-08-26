@@ -2,7 +2,7 @@
 
 ## Current phase
 
-Local MVP complete and quality-gated; release in progress.
+MVP implemented, quality-gated, and deployed to production; GitHub push is awaiting an account privacy-setting change.
 
 ## Completed
 
@@ -15,6 +15,11 @@ Local MVP complete and quality-gated; release in progress.
 - Implemented FastAPI/LangChain ingestion, chunking, embedding, retrieval, grounded generation, source citations, and deterministic fallback.
 - Passed ESLint, strict TypeScript, four frontend/domain tests, production Next build, Ruff, nine Python evaluations, and FastAPI import smoke test.
 - Completed desktop visual QA across every primary product route.
+- Created the private GitHub repository at `https://github.com/Niloy-Bhuiyan/ScopeForce` and configured it as `origin`.
+- Linked and deployed the Vercel project at `https://scopeforce.vercel.app`.
+- Verified production UI deep links, API routing, ingestion, retrieval, grounded clarification, grounded requirements, and truthful provider health metadata.
+- Completed responsive production QA at a 390 × 844 viewport across all primary and authentication routes, including graph search, build conflict repair, proof repair, blast-radius planning, and intake indexing.
+- Confirmed the production browser console has no warnings or errors during the tested flows.
 
 ## Decisions
 
@@ -25,13 +30,13 @@ Local MVP complete and quality-gated; release in progress.
 
 ## Pending
 
-GitHub creation/push, preview and production Vercel deployments, responsive production QA, and release evidence.
+Push the existing local commits after GitHub command-line email protection is adjusted for the mandated commit identity. Optionally configure `OPENAI_API_KEY` later for a live OpenAI smoke test.
 
 ## Authentication and release state
 
-- GitHub: authenticated; private repository not yet created.
-- Vercel: authenticated; project not yet linked.
-- OpenAI: environment key missing; live smoke test unavailable until securely configured.
+- GitHub: authenticated; private repository created and remote configured. Push is blocked by GitHub error `GH007` because the prompt-mandated commit email is private and command-line email protection is enabled.
+- Vercel: authenticated, linked, and production deployment ready at `https://scopeforce.vercel.app`.
+- OpenAI: environment key missing; the deployed API truthfully reports `ai_provider=not-configured`, `embedding_provider=local-hash`, and `vector_store=in-memory-ephemeral`.
 
 ## Commands
 

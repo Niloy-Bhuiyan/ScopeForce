@@ -4,6 +4,13 @@ ScopeForce is the engineering control plane between a software idea and AI-built
 
 The CampusLink MVP demonstrates the complete product loop: intake, grounded clarification, structured scope, system design, graph traceability, controlled build simulation, collision handling, proof, drift repair, blast-radius planning, provider boundaries, and an exportable handoff.
 
+## Live release
+
+- Production: [scopeforce.vercel.app](https://scopeforce.vercel.app)
+- Source: [github.com/Niloy-Bhuiyan/ScopeForce](https://github.com/Niloy-Bhuiyan/ScopeForce) (private)
+
+The production deployment uses deterministic local embeddings and grounded fallback responses until `OPENAI_API_KEY` is configured. Its vector index is in-memory and ephemeral by design for the MVP.
+
 ## What is real
 
 - Responsive Next.js product with shared application state and interactive React Flow graph lenses.
@@ -58,4 +65,3 @@ npm run build
 - `POST /api/ai/requirements`
 
 See [docs/AI_RAG_ARCHITECTURE.md](docs/AI_RAG_ARCHITECTURE.md) for grounding and persistence details, and [docs/BUILD_STATE.md](docs/BUILD_STATE.md) for the current release state.
-
