@@ -73,7 +73,7 @@ export function ScopeGraph({ mode = "engineering", className = "" }: { mode?: Gr
 
   return (
     <div className={`scope-graph ${className}`}>
-      <ReactFlow nodes={nodes} edges={edges} nodeTypes={nodeTypes} onNodeClick={(_, node) => setSelected(node.id)} fitView fitViewOptions={{ padding: 0.18 }} minZoom={0.35} maxZoom={1.6} nodesFocusable elementsSelectable>
+      <ReactFlow nodes={nodes} edges={edges} nodeTypes={nodeTypes} onNodeClick={(_, node) => setSelected(node.id)} fitView fitViewOptions={{ padding: 0.08 }} minZoom={0.35} maxZoom={1.6} nodesFocusable elementsSelectable>
         <Background variant={BackgroundVariant.Dots} gap={22} size={1} color="var(--graph-dot)" />
         <Controls showInteractive={false} position="bottom-left" />
         {mode === "engineering" && <MiniMap pannable zoomable position="bottom-right" nodeColor="var(--accent-soft)" maskColor="rgba(246,242,235,.76)" />}
@@ -81,4 +81,3 @@ export function ScopeGraph({ mode = "engineering", className = "" }: { mode?: Gr
     </div>
   );
 }
-

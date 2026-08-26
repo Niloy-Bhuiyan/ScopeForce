@@ -2,7 +2,7 @@
 
 ## Current phase
 
-Foundation complete; product implementation in progress.
+Local MVP complete and quality-gated; release in progress.
 
 ## Completed
 
@@ -11,6 +11,10 @@ Foundation complete; product implementation in progress.
 - Initialized repository with local Git identity `Niloy-Bhuiyan <niloybhuiyann@gmail.com>`.
 - Confirmed current Vercel Python/FastAPI entrypoint and Python 3.12+ support.
 - Established Next/FastAPI architecture, design tokens, typed CampusLink domain, graph algorithms, build rules, initial tests, and project documentation.
+- Implemented every primary view, shared state transitions, responsive layouts, notifications, structured export, and four graph lenses.
+- Implemented FastAPI/LangChain ingestion, chunking, embedding, retrieval, grounded generation, source citations, and deterministic fallback.
+- Passed ESLint, strict TypeScript, four frontend/domain tests, production Next build, Ruff, nine Python evaluations, and FastAPI import smoke test.
+- Completed desktop visual QA across every primary product route.
 
 ## Decisions
 
@@ -21,7 +25,7 @@ Foundation complete; product implementation in progress.
 
 ## Pending
 
-Product UI, Python AI service, complete tests, visual QA, GitHub creation/push, preview and production Vercel deployments, production QA.
+GitHub creation/push, preview and production Vercel deployments, responsive production QA, and release evidence.
 
 ## Authentication and release state
 
@@ -36,4 +40,3 @@ See README quality gates. Important paths: `app/`, `components/`, `lib/domain/`,
 ## Real vs simulated
 
 The graph/state/application and forthcoming RAG/vector path are real. Coding-agent build execution is simulated. Provider API execution beyond optional OpenAI RAG is planned.
-
