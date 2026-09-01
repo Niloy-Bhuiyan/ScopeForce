@@ -14,3 +14,9 @@ dist/
 .env.*
 !.env.example
 *.log
+
+# local agent tooling
+.claude/
+CLAUDE.md
+AGENTS.md
+.mcp.json
